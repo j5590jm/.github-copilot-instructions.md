@@ -76,3 +76,5 @@ Implement and preserve this flow:
 - Every new module must contain type hints, docstrings, error handling, and unit-testable functions.
 - Before modifying an existing file, inspect it first.
 - Do not silently overwrite existing working functionality.
+.\.venv\Scripts\Activate.ps1
+pytest tests/test_config.py -q

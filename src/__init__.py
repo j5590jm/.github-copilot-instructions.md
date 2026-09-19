@@ -1,0 +1,1 @@
+"""Crypto trading assistant application package."""

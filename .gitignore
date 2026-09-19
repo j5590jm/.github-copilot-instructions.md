@@ -1,3 +1,19 @@
+# Secrets and local configuration
 .env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime data and models
+data/
+models/.env
 .env.*
 !.env.example
